@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,7 +11,32 @@
 
     gtag('config', 'UA-108153466-1');
     </script>
-   
+    <!-- Global site tag (gtag.js) - Google AdWords: 830812903 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-830812903"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-830812903');
+    </script>
+    <!-- Event snippet for Click to see website conversion page
+    In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+        function gtag_report_conversion(url) {
+            var callback = function () {
+                if (typeof (url) != 'undefined') {
+                    window.location = url;
+                }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-830812903/enz1CKm6nncQ5-WUjAM',
+                'event_callback': callback
+            });
+            return false;
+        }
+    </script>
+
     <meta name="description" content="Equihash mining pool for Bitcoin Gold crypto coin. Bitcoin is under threat to be dominated by few very influential organisations. This is pool to mine BTG comunity induced fork at your home computer using conventional GPU." />
     <meta name="keywords" content="BTG ,Bitcoin, GPU, Mining, Crypto, Currency, Bitcoin Gold, Fork, AMD, Nvidia, Claymore, Democratic, ASIC Resistant, Equihash, Algorithm"/>
     <meta charset="utf-8">
@@ -106,7 +131,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>In the begining Bitcoin network transactions where secured by individual hobbyist miners. With introduction of ASIC hardware security function has been disproportionately concentrated into handful of corporations making it less secure.</p>
+                    <p>In the beginning Bitcoin network transactions where secured by individual hobbyist miners. With the introduction of ASIC hardware security, functionality has been disproportionately concentrated into a handful of corporations making it less secure.</p>
                 </div>
                 <div class="col-lg-4">
                     <p>Bitcoin Gold blockchain database is going to be secured with Equihash algorithm that is ASIC resistant. Being able to mine bitcoin with conventional GPU hardware ensures Bitcoin Gold network security functions are well distributed across the world.</p>
